@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.stackroute.qe.test.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="checkLogout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stackroute.qe.test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

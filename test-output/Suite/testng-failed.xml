@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.stackroute.qe.test.LoginPageTest">
+        <methods>
+          <include name="checkValidLogin"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.stackroute.qe.test.LoginPageTest -->
+      <class name="com.stackroute.qe.test.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="checkLogout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.stackroute.qe.test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
